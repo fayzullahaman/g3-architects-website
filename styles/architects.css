@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 .work-sans-font {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -118,6 +117,15 @@ header {
     display: flex;
     gap: 146px;
 }
+.feature-title {
+    font-size: 45px;
+}
+
+#feature-title-id {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    max-width: 450px;
+}
 
 .feature-description {
     margin-bottom: 30px;
@@ -140,12 +148,13 @@ header {
 .some-fact-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    justify-content: space-between;
+    justify-items: center;
+    gap: 24px;
 }
 .some-fact-item {
     border-radius: 10px;
     border: 1px solid #FF900E;
-    margin: 60px 50px;
+    /* margin: 60px 50px; */
     text-align: center;
     width: 241px;
     height: 241px;
@@ -156,6 +165,7 @@ header {
 }
 .some-fact-description {
     width: 550px;
+    margin-bottom: 50px;
 }
 .some-fact-item-title {
     font-size: 45px;
@@ -167,6 +177,28 @@ header {
     font-weight: 500;
     color: #727272;
 }
+
+/* Our sponsore section style */
+.our-sponsore {
+    text-align: center;
+    justify-items: center;
+}
+.sponsore-title {
+    font-size: 45px;
+}
+.sponsore-description {
+    max-width: 540px;
+    margin-bottom: 50px;
+}
+.sponsore-content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    filter: grayscale(100%);
+    gap: 140px;
+}
+
+
+
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
 
